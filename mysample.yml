@@ -1,0 +1,9 @@
+--- 
+- hosts: all 
+  become: yes
+  tasks: 
+        - name: i want to insatall apache
+          apt:
+              name: apache2
+              sate: present 
+                
